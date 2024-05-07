@@ -98,6 +98,7 @@ def enc4linp(dataset):
 instances = [f.split('.')[0] for f in os.listdir(uai_dir) if os.path.isfile(os.path.join(uai_dir, f))]
 
 for d in [enc3_dir, enc4_dir, enc4linp_dir]:
+    os.makedirs(d, exist_ok=True)
     f = os.path.join(d, 'preprocess_time.csv')
     if os.path.isfile(f):
         os.remove(f)
