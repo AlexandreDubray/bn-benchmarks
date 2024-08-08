@@ -1,5 +1,8 @@
 import sys
 import os
+import random
+
+random.seed(697458)
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 uai_dir = os.path.join(script_dir, 'bayesian-networks', 'uai')
@@ -11,22 +14,15 @@ def _get_uai_queries(filename):
         content = f.read().split()
         number_var = int(content[1])
         vars_domain_size = [int(content[2 + i]) for i in range(number_var)]
-        is_leaf = [True for _ in range(number_var)]
-        idx = 2 + number_var + 1
-        for _ in range(number_var):
-            function_scope_size = int(content[idx])
-            idx += 1
-            for _ in range(function_scope_size - 1):
-                is_leaf[int(content[idx])] = False
-                idx += 1
-            idx += 1
+        variables = [i for i in range(number_var)]
+        random.shuffle(variables)
 
-    queries = []
-    for var in range(number_var):
-        if is_leaf[var]:
-            for i in range(vars_domain_size[var]):
-                queries.append(f'1 {var} {i}')
-    return queries
+        queries = []
+        for i in range(min(50, len(variables))):
+            var = variables[i]
+            value = random.randint(0, vars_domain_size[var]-1)
+            queries.append(f'1 {var} {value}')
+        return queries
 
 
 def make_opti_bench():
