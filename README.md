@@ -1,8 +1,8 @@
 # bn-benchmarks
 
-This repository contains Bayesian networks that I use to benchmark (projected) weighted model counters.
+This repository contains Bayesian networks used in my experiments.
 The networks are found in the `bayesian-networks` directory in BIF and UAI format.
-Currently, all networks come from [the bnlearn repository](https://www.bnlearn.com/about/); if you use them please use the appropriate citation:
+Some networks come from [the bnlearn repository](https://www.bnlearn.com/about/); if you use them please use the appropriate citation:
 
 ```
 @article{scutari2009learning,
@@ -13,6 +13,8 @@ Currently, all networks come from [the bnlearn repository](https://www.bnlearn.c
 }
 ```
 
+In the `scripts` directory you can find some utilities to computes marginal probabilities from UAI files, either using a WMC encodings
+(references below) or with [ProbLog](https://dtai.cs.kuleuven.be/problog/)
 
 ## CNF encodings
 
@@ -53,7 +55,7 @@ Currently, this repository contains the following encodings; if you use any of t
 
 ### Projected Weighted Model Counting
 
-For now, the only projected weighted model counting encoding is the one proposed in `Schlandals`. It is named `sch1` in the hope that I'll improve that encoding at some point.
+For now, the only projected weighted model counting encoding is the one proposed in `Schlandals`.
 - sch
 ```
 @inproceedings{dubrayProbabilisticInferenceProjected2023a,
