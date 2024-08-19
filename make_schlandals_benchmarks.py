@@ -14,14 +14,26 @@ def _get_uai_queries(filename):
         content = f.read().split()
         number_var = int(content[1])
         vars_domain_size = [int(content[2 + i]) for i in range(number_var)]
-        variables = [i for i in range(number_var)]
-        random.shuffle(variables)
+        idx = 2 + number_var + 1
+        scopes = []
+        for _ in range(number_var):
+            scope_size = int(content[idx])
+            idx += 1
+            scopes.append([int(content[idx + i]) for i in range(scope_size)])
+            idx += scope_size
+
+        is_leaf = [True for _ in range(number_var)]
+
+        for variable in range(number_var):
+            for parent in scopes[variable][:-1]:
+                is_leaf[parent] = False
 
         queries = []
-        for i in range(min(50, len(variables))):
-            var = variables[i]
-            value = random.randint(0, vars_domain_size[var]-1)
-            queries.append(f'1 {var} {value}')
+        for variable in range(number_var):
+            if is_leaf[variable]:
+                value = random.randint(0, vars_domain_size[variable] - 1)
+                #for value in range(vars_domain_size[variable]):
+                queries.append(f'1 {variable} {value}')
         return queries
 
 
@@ -30,9 +42,13 @@ def make_opti_bench():
     with open(os.path.join(outdir, 'opti-benchs.csv'), 'w') as f:
         f.write('model,query')
         for model in instances:
+            if 'fs' in model or 'blockmap' in model or 'mastermind' in model:
+                continue
             f.write('\n')
-            print(f"Parsing {model}")
-            f.write('\n'.join([f'{model},{query}' for query in _get_uai_queries(model)]))
+            queries = _get_uai_queries(model)
+            print(f"Parsing {model}: {len(queries)} queries")
+            model_path = os.path.join(uai_dir, model)
+            f.write('\n'.join([f'{model_path},{query}' for query in queries]))
 
 def make_learn_bench():
     pass

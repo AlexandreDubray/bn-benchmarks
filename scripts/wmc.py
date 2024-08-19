@@ -2,6 +2,7 @@ import sys
 import subprocess
 import re
 import os
+import random
 
 def get_evidence_content(evidence):
     try:
@@ -12,7 +13,7 @@ def get_evidence_content(evidence):
 def get_minimal_uai(uai_file, evidences):
     number_evidences = evidences[0]
     variables_in_evidences = [evidences[2*i+1] for i in range(number_evidences)]
-    content = open(uai_file).read().split(' ')
+    content = open(uai_file).read().split()
     number_variables = int(content[1])
     parents = [[] for _ in range(number_variables)]
     idx = 2 + number_variables + 1
@@ -109,7 +110,7 @@ if __name__ == '__main__':
         sys.exit(1)
     evidence = get_evidence_content(sys.argv[2])
     model = get_minimal_uai(sys.argv[1], evidence)
-    fn = f'{model}_{evidence}'.replace('/', '_').replace(' ', '_')
+    fn = random.randint(0, 1_000_000_000)
     with open(f'{fn}.uai', 'w') as f:
         f.write(' '.join(model))
     if sys.argv[3] == 'enc3':
