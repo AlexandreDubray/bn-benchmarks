@@ -29,10 +29,17 @@ def _get_uai_queries(filename):
                 is_leaf[parent] = False
 
         queries = []
-        for variable in range(number_var):
-            if is_leaf[variable]:
+        leaves = [x for x in range(number_var) if is_leaf[x]]
+        if len(leaves) < 200:
+            for variable in range(number_var):
+                if is_leaf[variable]:
+                    value = random.randint(0, vars_domain_size[variable] - 1)
+                    #for value in range(vars_domain_size[variable]):
+                    queries.append(f'1 {variable} {value}')
+        else:
+            random.shuffle(leaves)
+            for variable in leaves[:200]:
                 value = random.randint(0, vars_domain_size[variable] - 1)
-                #for value in range(vars_domain_size[variable]):
                 queries.append(f'1 {variable} {value}')
         return queries
 
