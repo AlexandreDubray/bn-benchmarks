@@ -1,0 +1,1968 @@
+network unknown{
+}
+variable v_1_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_1_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_2_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_3_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_4_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_5_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_6_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_7_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_8_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_9_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_10_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_11_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_12_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_13_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_14_15 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_1 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_2 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_3 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_4 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_5 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_6 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_7 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_8 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_9 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_10 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_11 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_12 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_13 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_14 {
+  type discrete [ 2 ] { yes, false };
+}
+variable v_15_15 {
+  type discrete [ 2 ] { yes, false };
+}
+probability ( v_1_1 ) {
+  table 0.0392514, 0.960749;
+}
+probability ( v_1_2 | v_1_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_1_3 | v_1_2 ) {
+  (true) 0.506627, 0.493373;
+  (false) 0.439741, 0.560259;
+}
+probability ( v_1_4 | v_1_3 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_1_5 | v_1_4 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_1_6 | v_1_5 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_1_7 | v_1_6 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_1_8 | v_1_7 ) {
+  (true) 0.612995, 0.387005;
+  (false) 0.36846, 0.63154;
+}
+probability ( v_1_9 | v_1_8 ) {
+  (true) 0.993414, 0.00658629;
+  (false) 0.237359, 0.762641;
+}
+probability ( v_1_10 | v_1_9 ) {
+  (true) 0.199565, 0.800435;
+  (false) 0.608155, 0.391845;
+}
+probability ( v_1_11 | v_1_10 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_1_12 | v_1_11 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_1_13 | v_1_12 ) {
+  (true) 0.431766, 0.568234;
+  (false) 0.565729, 0.434271;
+}
+probability ( v_1_14 | v_1_13 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_1_15 | v_1_14 ) {
+  (true) 0.683553, 0.316447;
+  (false) 0.080169, 0.919831;
+}
+probability ( v_2_1 | v_1_1 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_2_2 | v_2_1, v_1_2 ) {
+  (true, true) 0.841779, 0.158221;
+  (true, false) 0.595995, 0.404005;
+  (false, true) 0.336039, 0.663961;
+  (false, false) 0.988338, 0.0116621;
+}
+probability ( v_2_3 | v_2_2, v_1_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_4 | v_2_3, v_1_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_5 | v_2_4, v_1_5 ) {
+  (true, true) 0.0363822, 0.963618;
+  (true, false) 0.102457, 0.897543;
+  (false, true) 0.81861, 0.18139;
+  (false, false) 0.476872, 0.523128;
+}
+probability ( v_2_6 | v_2_5, v_1_6 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_7 | v_2_6, v_1_7 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_8 | v_2_7, v_1_8 ) {
+  (true, true) 0.707804, 0.292196;
+  (true, false) 0.327214, 0.672786;
+  (false, true) 0.298126, 0.701874;
+  (false, false) 0.696142, 0.303858;
+}
+probability ( v_2_9 | v_2_8, v_1_9 ) {
+  (true, true) 0.0131329, 0.986867;
+  (true, false) 0.518551, 0.481449;
+  (false, true) 0.867637, 0.132363;
+  (false, false) 0.341135, 0.658865;
+}
+probability ( v_2_10 | v_2_9, v_1_10 ) {
+  (true, true) 0.957177, 0.0428225;
+  (true, false) 0.66255, 0.33745;
+  (false, true) 0.137647, 0.862353;
+  (false, false) 0.604304, 0.395696;
+}
+probability ( v_2_11 | v_2_10, v_1_11 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_12 | v_2_11, v_1_12 ) {
+  (true, true) 0.55954, 0.44046;
+  (true, false) 0.0143194, 0.985681;
+  (false, true) 0.672233, 0.327767;
+  (false, false) 0.939195, 0.0608048;
+}
+probability ( v_2_13 | v_2_12, v_1_13 ) {
+  (true, true) 0.280159, 0.719841;
+  (true, false) 0.39902, 0.60098;
+  (false, true) 0.528366, 0.471634;
+  (false, false) 0.0113776, 0.988622;
+}
+probability ( v_2_14 | v_2_13, v_1_14 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_2_15 | v_2_14, v_1_15 ) {
+  (true, true) 0.672366, 0.327634;
+  (true, false) 0.450864, 0.549136;
+  (false, true) 0.847789, 0.152211;
+  (false, false) 0.0135004, 0.9865;
+}
+probability ( v_3_1 | v_2_1 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_3_2 | v_3_1, v_2_2 ) {
+  (true, true) 0.29793, 0.70207;
+  (true, false) 0.40927, 0.59073;
+  (false, true) 0.85958, 0.14042;
+  (false, false) 0.471959, 0.528041;
+}
+probability ( v_3_3 | v_3_2, v_2_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_3_4 | v_3_3, v_2_4 ) {
+  (true, true) 0.208025, 0.791975;
+  (true, false) 0.281813, 0.718187;
+  (false, true) 0.621596, 0.378404;
+  (false, false) 0.870366, 0.129634;
+}
+probability ( v_3_5 | v_3_4, v_2_5 ) {
+  (true, true) 0.0206155, 0.979385;
+  (true, false) 0.398732, 0.601268;
+  (false, true) 0.57335, 0.42665;
+  (false, false) 0.381722, 0.618278;
+}
+probability ( v_3_6 | v_3_5, v_2_6 ) {
+  (true, true) 0.911941, 0.0880591;
+  (true, false) 0.0409552, 0.959045;
+  (false, true) 0.567215, 0.432785;
+  (false, false) 0.892093, 0.107907;
+}
+probability ( v_3_7 | v_3_6, v_2_7 ) {
+  (true, true) 0.018079, 0.981921;
+  (true, false) 0.739882, 0.260118;
+  (false, true) 0.726821, 0.273179;
+  (false, false) 0.178362, 0.821638;
+}
+probability ( v_3_8 | v_3_7, v_2_8 ) {
+  (true, true) 0.402872, 0.597128;
+  (true, false) 0.476292, 0.523708;
+  (false, true) 0.954118, 0.0458822;
+  (false, false) 0.262452, 0.737548;
+}
+probability ( v_3_9 | v_3_8, v_2_9 ) {
+  (true, true) 0.0701481, 0.929852;
+  (true, false) 0.124173, 0.875827;
+  (false, true) 0.0711128, 0.928887;
+  (false, false) 0.263854, 0.736146;
+}
+probability ( v_3_10 | v_3_9, v_2_10 ) {
+  (true, true) 0.753514, 0.246486;
+  (true, false) 0.471879, 0.528121;
+  (false, true) 0.0155664, 0.984434;
+  (false, false) 0.375109, 0.624891;
+}
+probability ( v_3_11 | v_3_10, v_2_11 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_3_12 | v_3_11, v_2_12 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_3_13 | v_3_12, v_2_13 ) {
+  (true, true) 0.961173, 0.038827;
+  (true, false) 0.694803, 0.305197;
+  (false, true) 0.258545, 0.741455;
+  (false, false) 0.139535, 0.860465;
+}
+probability ( v_3_14 | v_3_13, v_2_14 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_3_15 | v_3_14, v_2_15 ) {
+  (true, true) 0.263917, 0.736083;
+  (true, false) 0.0480417, 0.951958;
+  (false, true) 0.635192, 0.364808;
+  (false, false) 0.527771, 0.472229;
+}
+probability ( v_4_1 | v_3_1 ) {
+  (true) 0.388705, 0.611295;
+  (false) 0.99965, 0.000350497;
+}
+probability ( v_4_2 | v_4_1, v_3_2 ) {
+  (true, true) 0.763815, 0.236185;
+  (true, false) 0.341894, 0.658106;
+  (false, true) 0.3749, 0.6251;
+  (false, false) 0.15954, 0.84046;
+}
+probability ( v_4_3 | v_4_2, v_3_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_4_4 | v_4_3, v_3_4 ) {
+  (true, true) 0.401842, 0.598158;
+  (true, false) 0.543539, 0.456461;
+  (false, true) 0.287113, 0.712887;
+  (false, false) 0.363015, 0.636985;
+}
+probability ( v_4_5 | v_4_4, v_3_5 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_4_6 | v_4_5, v_3_6 ) {
+  (true, true) 0.130943, 0.869057;
+  (true, false) 0.682457, 0.317543;
+  (false, true) 0.93568, 0.0643199;
+  (false, false) 0.178985, 0.821015;
+}
+probability ( v_4_7 | v_4_6, v_3_7 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_4_8 | v_4_7, v_3_8 ) {
+  (true, true) 0.470169, 0.529831;
+  (true, false) 0.804994, 0.195006;
+  (false, true) 0.13304, 0.86696;
+  (false, false) 0.629709, 0.370291;
+}
+probability ( v_4_9 | v_4_8, v_3_9 ) {
+  (true, true) 0.658828, 0.341172;
+  (true, false) 0.566696, 0.433304;
+  (false, true) 0.346613, 0.653387;
+  (false, false) 0.247445, 0.752555;
+}
+probability ( v_4_10 | v_4_9, v_3_10 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_4_11 | v_4_10, v_3_11 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_4_12 | v_4_11, v_3_12 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_4_13 | v_4_12, v_3_13 ) {
+  (true, true) 0.578213, 0.421787;
+  (true, false) 0.632636, 0.367364;
+  (false, true) 0.438858, 0.561142;
+  (false, false) 0.0413135, 0.958687;
+}
+probability ( v_4_14 | v_4_13, v_3_14 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_4_15 | v_4_14, v_3_15 ) {
+  (true, true) 0.182645, 0.817355;
+  (true, false) 0.105432, 0.894568;
+  (false, true) 0.0807846, 0.919215;
+  (false, false) 0.430089, 0.569911;
+}
+probability ( v_5_1 | v_4_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_5_2 | v_5_1, v_4_2 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_5_3 | v_5_2, v_4_3 ) {
+  (true, true) 0.757717, 0.242283;
+  (true, false) 0.553497, 0.446503;
+  (false, true) 0.287129, 0.712871;
+  (false, false) 0.936798, 0.0632018;
+}
+probability ( v_5_4 | v_5_3, v_4_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_5_5 | v_5_4, v_4_5 ) {
+  (true, true) 0.350861, 0.649139;
+  (true, false) 0.873348, 0.126652;
+  (false, true) 0.671086, 0.328914;
+  (false, false) 0.741638, 0.258362;
+}
+probability ( v_5_6 | v_5_5, v_4_6 ) {
+  (true, true) 0.517394, 0.482606;
+  (true, false) 0.265454, 0.734546;
+  (false, true) 0.321111, 0.678889;
+  (false, false) 0.251566, 0.748434;
+}
+probability ( v_5_7 | v_5_6, v_4_7 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_5_8 | v_5_7, v_4_8 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_5_9 | v_5_8, v_4_9 ) {
+  (true, true) 0.107375, 0.892625;
+  (true, false) 0.635839, 0.364161;
+  (false, true) 0.94416, 0.0558401;
+  (false, false) 0.0441729, 0.955827;
+}
+probability ( v_5_10 | v_5_9, v_4_10 ) {
+  (true, true) 0.646145, 0.353855;
+  (true, false) 0.0957329, 0.904267;
+  (false, true) 0.400433, 0.599567;
+  (false, false) 0.0806338, 0.919366;
+}
+probability ( v_5_11 | v_5_10, v_4_11 ) {
+  (true, true) 0.751295, 0.248705;
+  (true, false) 0.953981, 0.0460187;
+  (false, true) 0.396592, 0.603408;
+  (false, false) 0.492932, 0.507068;
+}
+probability ( v_5_12 | v_5_11, v_4_12 ) {
+  (true, true) 0.913986, 0.0860138;
+  (true, false) 0.758387, 0.241613;
+  (false, true) 0.0574674, 0.942533;
+  (false, false) 0.165552, 0.834448;
+}
+probability ( v_5_13 | v_5_12, v_4_13 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_5_14 | v_5_13, v_4_14 ) {
+  (true, true) 0.183934, 0.816066;
+  (true, false) 0.228843, 0.771157;
+  (false, true) 0.761793, 0.238207;
+  (false, false) 0.533592, 0.466408;
+}
+probability ( v_5_15 | v_5_14, v_4_15 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_6_1 | v_5_1 ) {
+  (true) 0.629231, 0.370769;
+  (false) 0.00912856, 0.990871;
+}
+probability ( v_6_2 | v_6_1, v_5_2 ) {
+  (true, true) 0.0296644, 0.970336;
+  (true, false) 0.0897623, 0.910238;
+  (false, true) 0.506378, 0.493622;
+  (false, false) 0.780959, 0.219041;
+}
+probability ( v_6_3 | v_6_2, v_5_3 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_6_4 | v_6_3, v_5_4 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_6_5 | v_6_4, v_5_5 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_6_6 | v_6_5, v_5_6 ) {
+  (true, true) 0.901698, 0.0983021;
+  (true, false) 0.0409633, 0.959037;
+  (false, true) 0.199674, 0.800326;
+  (false, false) 0.320522, 0.679478;
+}
+probability ( v_6_7 | v_6_6, v_5_7 ) {
+  (true, true) 0.146697, 0.853303;
+  (true, false) 0.683506, 0.316494;
+  (false, true) 0.367069, 0.632931;
+  (false, false) 0.775928, 0.224072;
+}
+probability ( v_6_8 | v_6_7, v_5_8 ) {
+  (true, true) 0.147942, 0.852058;
+  (true, false) 0.805592, 0.194408;
+  (false, true) 0.782397, 0.217603;
+  (false, false) 0.65432, 0.34568;
+}
+probability ( v_6_9 | v_6_8, v_5_9 ) {
+  (true, true) 0.82614, 0.17386;
+  (true, false) 0.55729, 0.44271;
+  (false, true) 0.860443, 0.139557;
+  (false, false) 0.60624, 0.39376;
+}
+probability ( v_6_10 | v_6_9, v_5_10 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_6_11 | v_6_10, v_5_11 ) {
+  (true, true) 0.837166, 0.162834;
+  (true, false) 0.454923, 0.545077;
+  (false, true) 0.425032, 0.574968;
+  (false, false) 0.977071, 0.0229292;
+}
+probability ( v_6_12 | v_6_11, v_5_12 ) {
+  (true, true) 0.313522, 0.686478;
+  (true, false) 0.878769, 0.121231;
+  (false, true) 0.00325768, 0.996742;
+  (false, false) 0.513196, 0.486804;
+}
+probability ( v_6_13 | v_6_12, v_5_13 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_6_14 | v_6_13, v_5_14 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_6_15 | v_6_14, v_5_15 ) {
+  (true, true) 0.827964, 0.172036;
+  (true, false) 0.183967, 0.816033;
+  (false, true) 0.411808, 0.588192;
+  (false, false) 0.688407, 0.311593;
+}
+probability ( v_7_1 | v_6_1 ) {
+  (true) 0.786055, 0.213945;
+  (false) 0.581129, 0.418871;
+}
+probability ( v_7_2 | v_7_1, v_6_2 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_3 | v_7_2, v_6_3 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_4 | v_7_3, v_6_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_7_5 | v_7_4, v_6_5 ) {
+  (true, true) 0.870534, 0.129466;
+  (true, false) 0.346862, 0.653138;
+  (false, true) 0.493332, 0.506668;
+  (false, false) 0.0707326, 0.929267;
+}
+probability ( v_7_6 | v_7_5, v_6_6 ) {
+  (true, true) 0.851159, 0.148841;
+  (true, false) 0.925251, 0.0747488;
+  (false, true) 0.416239, 0.583761;
+  (false, false) 0.0351258, 0.964874;
+}
+probability ( v_7_7 | v_7_6, v_6_7 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_7_8 | v_7_7, v_6_8 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_9 | v_7_8, v_6_9 ) {
+  (true, true) 0.48318, 0.51682;
+  (true, false) 0.202945, 0.797055;
+  (false, true) 0.695759, 0.304241;
+  (false, false) 0.221134, 0.778866;
+}
+probability ( v_7_10 | v_7_9, v_6_10 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_11 | v_7_10, v_6_11 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_12 | v_7_11, v_6_12 ) {
+  (true, true) 0.318462, 0.681538;
+  (true, false) 0.336258, 0.663742;
+  (false, true) 0.513643, 0.486357;
+  (false, false) 0.734702, 0.265298;
+}
+probability ( v_7_13 | v_7_12, v_6_13 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_7_14 | v_7_13, v_6_14 ) {
+  (true, true) 0.256065, 0.743935;
+  (true, false) 0.23974, 0.76026;
+  (false, true) 0.923514, 0.0764856;
+  (false, false) 0.314812, 0.685188;
+}
+probability ( v_7_15 | v_7_14, v_6_15 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_8_1 | v_7_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_8_2 | v_8_1, v_7_2 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_8_3 | v_8_2, v_7_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_8_4 | v_8_3, v_7_4 ) {
+  (true, true) 0.280867, 0.719133;
+  (true, false) 0.658085, 0.341915;
+  (false, true) 0.985718, 0.0142817;
+  (false, false) 0.131569, 0.868431;
+}
+probability ( v_8_5 | v_8_4, v_7_5 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_8_6 | v_8_5, v_7_6 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_8_7 | v_8_6, v_7_7 ) {
+  (true, true) 0.519348, 0.480652;
+  (true, false) 0.620715, 0.379285;
+  (false, true) 0.570429, 0.429571;
+  (false, false) 0.246692, 0.753308;
+}
+probability ( v_8_8 | v_8_7, v_7_8 ) {
+  (true, true) 0.0618378, 0.938162;
+  (true, false) 0.0479019, 0.952098;
+  (false, true) 0.295937, 0.704063;
+  (false, false) 0.936571, 0.0634289;
+}
+probability ( v_8_9 | v_8_8, v_7_9 ) {
+  (true, true) 0.47477, 0.52523;
+  (true, false) 0.541492, 0.458508;
+  (false, true) 0.118955, 0.881045;
+  (false, false) 0.241994, 0.758006;
+}
+probability ( v_8_10 | v_8_9, v_7_10 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_8_11 | v_8_10, v_7_11 ) {
+  (true, true) 0.620393, 0.379607;
+  (true, false) 0.901443, 0.0985565;
+  (false, true) 0.759816, 0.240184;
+  (false, false) 0.642951, 0.357049;
+}
+probability ( v_8_12 | v_8_11, v_7_12 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_8_13 | v_8_12, v_7_13 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_8_14 | v_8_13, v_7_14 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_8_15 | v_8_14, v_7_15 ) {
+  (true, true) 0.0507232, 0.949277;
+  (true, false) 0.754889, 0.245111;
+  (false, true) 0.709482, 0.290518;
+  (false, false) 0.292717, 0.707283;
+}
+probability ( v_9_1 | v_8_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_9_2 | v_9_1, v_8_2 ) {
+  (true, true) 0.342724, 0.657276;
+  (true, false) 0.161781, 0.838219;
+  (false, true) 0.470009, 0.529991;
+  (false, false) 0.963117, 0.0368829;
+}
+probability ( v_9_3 | v_9_2, v_8_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_9_4 | v_9_3, v_8_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_9_5 | v_9_4, v_8_5 ) {
+  (true, true) 0.864882, 0.135118;
+  (true, false) 0.355971, 0.644029;
+  (false, true) 0.427273, 0.572727;
+  (false, false) 0.144898, 0.855102;
+}
+probability ( v_9_6 | v_9_5, v_8_6 ) {
+  (true, true) 0.176921, 0.823079;
+  (true, false) 0.720851, 0.279149;
+  (false, true) 0.846195, 0.153805;
+  (false, false) 0.767448, 0.232552;
+}
+probability ( v_9_7 | v_9_6, v_8_7 ) {
+  (true, true) 0.601084, 0.398916;
+  (true, false) 0.476931, 0.523069;
+  (false, true) 0.064292, 0.935708;
+  (false, false) 0.820848, 0.179152;
+}
+probability ( v_9_8 | v_9_7, v_8_8 ) {
+  (true, true) 0.879871, 0.120129;
+  (true, false) 0.163572, 0.836428;
+  (false, true) 0.0814838, 0.918516;
+  (false, false) 0.34988, 0.65012;
+}
+probability ( v_9_9 | v_9_8, v_8_9 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_9_10 | v_9_9, v_8_10 ) {
+  (true, true) 0.927849, 0.0721505;
+  (true, false) 0.0442983, 0.955702;
+  (false, true) 0.184947, 0.815053;
+  (false, false) 0.147479, 0.852521;
+}
+probability ( v_9_11 | v_9_10, v_8_11 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_9_12 | v_9_11, v_8_12 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_9_13 | v_9_12, v_8_13 ) {
+  (true, true) 0.621328, 0.378672;
+  (true, false) 0.759048, 0.240952;
+  (false, true) 0.713977, 0.286023;
+  (false, false) 0.442177, 0.557823;
+}
+probability ( v_9_14 | v_9_13, v_8_14 ) {
+  (true, true) 0.593848, 0.406152;
+  (true, false) 0.605749, 0.394251;
+  (false, true) 0.760235, 0.239765;
+  (false, false) 0.943728, 0.0562718;
+}
+probability ( v_9_15 | v_9_14, v_8_15 ) {
+  (true, true) 0.904943, 0.0950571;
+  (true, false) 0.523434, 0.476566;
+  (false, true) 0.465195, 0.534805;
+  (false, false) 0.452818, 0.547182;
+}
+probability ( v_10_1 | v_9_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_10_2 | v_10_1, v_9_2 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_10_3 | v_10_2, v_9_3 ) {
+  (true, true) 0.223648, 0.776352;
+  (true, false) 0.871076, 0.128924;
+  (false, true) 0.710145, 0.289855;
+  (false, false) 0.397697, 0.602303;
+}
+probability ( v_10_4 | v_10_3, v_9_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_10_5 | v_10_4, v_9_5 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_10_6 | v_10_5, v_9_6 ) {
+  (true, true) 0.0871944, 0.912806;
+  (true, false) 0.865897, 0.134103;
+  (false, true) 0.489495, 0.510505;
+  (false, false) 0.819632, 0.180368;
+}
+probability ( v_10_7 | v_10_6, v_9_7 ) {
+  (true, true) 0.0129291, 0.987071;
+  (true, false) 0.284828, 0.715172;
+  (false, true) 0.223659, 0.776341;
+  (false, false) 0.450836, 0.549164;
+}
+probability ( v_10_8 | v_10_7, v_9_8 ) {
+  (true, true) 0.720775, 0.279225;
+  (true, false) 0.0736907, 0.926309;
+  (false, true) 0.218396, 0.781604;
+  (false, false) 0.403172, 0.596828;
+}
+probability ( v_10_9 | v_10_8, v_9_9 ) {
+  (true, true) 0.771282, 0.228718;
+  (true, false) 0.626821, 0.373179;
+  (false, true) 0.478096, 0.521904;
+  (false, false) 0.481427, 0.518573;
+}
+probability ( v_10_10 | v_10_9, v_9_10 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_10_11 | v_10_10, v_9_11 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_10_12 | v_10_11, v_9_12 ) {
+  (true, true) 0.0503687, 0.949631;
+  (true, false) 0.930175, 0.0698253;
+  (false, true) 0.294804, 0.705196;
+  (false, false) 0.870001, 0.129999;
+}
+probability ( v_10_13 | v_10_12, v_9_13 ) {
+  (true, true) 0.307734, 0.692266;
+  (true, false) 0.154828, 0.845172;
+  (false, true) 0.924673, 0.0753265;
+  (false, false) 0.75857, 0.24143;
+}
+probability ( v_10_14 | v_10_13, v_9_14 ) {
+  (true, true) 0.645449, 0.354551;
+  (true, false) 0.832261, 0.167739;
+  (false, true) 0.0510969, 0.948903;
+  (false, false) 0.0486208, 0.951379;
+}
+probability ( v_10_15 | v_10_14, v_9_15 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_11_1 | v_10_1 ) {
+  (true) 0.781217, 0.218783;
+  (false) 0.373488, 0.626512;
+}
+probability ( v_11_2 | v_11_1, v_10_2 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_11_3 | v_11_2, v_10_3 ) {
+  (true, true) 0.587321, 0.412679;
+  (true, false) 0.335813, 0.664187;
+  (false, true) 0.745964, 0.254036;
+  (false, false) 0.63769, 0.36231;
+}
+probability ( v_11_4 | v_11_3, v_10_4 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_11_5 | v_11_4, v_10_5 ) {
+  (true, true) 0.891676, 0.108324;
+  (true, false) 0.107072, 0.892928;
+  (false, true) 0.49522, 0.50478;
+  (false, false) 0.537125, 0.462875;
+}
+probability ( v_11_6 | v_11_5, v_10_6 ) {
+  (true, true) 0.546317, 0.453683;
+  (true, false) 0.585746, 0.414254;
+  (false, true) 0.378612, 0.621388;
+  (false, false) 0.368696, 0.631304;
+}
+probability ( v_11_7 | v_11_6, v_10_7 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_11_8 | v_11_7, v_10_8 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_11_9 | v_11_8, v_10_9 ) {
+  (true, true) 0.667754, 0.332246;
+  (true, false) 0.315034, 0.684966;
+  (false, true) 0.997475, 0.00252473;
+  (false, false) 0.413718, 0.586282;
+}
+probability ( v_11_10 | v_11_9, v_10_10 ) {
+  (true, true) 0.263463, 0.736537;
+  (true, false) 0.454486, 0.545514;
+  (false, true) 0.460415, 0.539585;
+  (false, false) 0.230466, 0.769534;
+}
+probability ( v_11_11 | v_11_10, v_10_11 ) {
+  (true, true) 0.122934, 0.877066;
+  (true, false) 0.122142, 0.877858;
+  (false, true) 0.910059, 0.0899413;
+  (false, false) 0.618155, 0.381845;
+}
+probability ( v_11_12 | v_11_11, v_10_12 ) {
+  (true, true) 0.849391, 0.150609;
+  (true, false) 0.164472, 0.835528;
+  (false, true) 0.245013, 0.754987;
+  (false, false) 0.228004, 0.771996;
+}
+probability ( v_11_13 | v_11_12, v_10_13 ) {
+  (true, true) 0.5062, 0.4938;
+  (true, false) 0.523992, 0.476008;
+  (false, true) 0.205668, 0.794332;
+  (false, false) 0.467347, 0.532653;
+}
+probability ( v_11_14 | v_11_13, v_10_14 ) {
+  (true, true) 0.251656, 0.748344;
+  (true, false) 0.570913, 0.429087;
+  (false, true) 0.991323, 0.00867705;
+  (false, false) 0.978756, 0.0212438;
+}
+probability ( v_11_15 | v_11_14, v_10_15 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_12_1 | v_11_1 ) {
+  (true) 1.0, 0.0;
+  (false) 0.0, 1.0;
+}
+probability ( v_12_2 | v_12_1, v_11_2 ) {
+  (true, true) 0.514713, 0.485287;
+  (true, false) 0.0267981, 0.973202;
+  (false, true) 0.14439, 0.85561;
+  (false, false) 0.3177, 0.6823;
+}
+probability ( v_12_3 | v_12_2, v_11_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_12_4 | v_12_3, v_11_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_12_5 | v_12_4, v_11_5 ) {
+  (true, true) 0.829146, 0.170854;
+  (true, false) 0.671194, 0.328806;
+  (false, true) 0.14436, 0.85564;
+  (false, false) 0.430343, 0.569657;
+}
+probability ( v_12_6 | v_12_5, v_11_6 ) {
+  (true, true) 0.715272, 0.284728;
+  (true, false) 0.421666, 0.578334;
+  (false, true) 0.901606, 0.098394;
+  (false, false) 0.0138973, 0.986103;
+}
+probability ( v_12_7 | v_12_6, v_11_7 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_12_8 | v_12_7, v_11_8 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_12_9 | v_12_8, v_11_9 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_12_10 | v_12_9, v_11_10 ) {
+  (true, true) 0.0707155, 0.929285;
+  (true, false) 0.146567, 0.853433;
+  (false, true) 0.050821, 0.949179;
+  (false, false) 0.536241, 0.463759;
+}
+probability ( v_12_11 | v_12_10, v_11_11 ) {
+  (true, true) 0.879967, 0.120033;
+  (true, false) 0.207435, 0.792565;
+  (false, true) 0.96794, 0.0320604;
+  (false, false) 0.31031, 0.68969;
+}
+probability ( v_12_12 | v_12_11, v_11_12 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_12_13 | v_12_12, v_11_13 ) {
+  (true, true) 0.580007, 0.419993;
+  (true, false) 0.324665, 0.675335;
+  (false, true) 0.531737, 0.468263;
+  (false, false) 0.188351, 0.811649;
+}
+probability ( v_12_14 | v_12_13, v_11_14 ) {
+  (true, true) 0.170771, 0.829229;
+  (true, false) 0.311408, 0.688592;
+  (false, true) 0.739342, 0.260658;
+  (false, false) 0.954195, 0.0458054;
+}
+probability ( v_12_15 | v_12_14, v_11_15 ) {
+  (true, true) 0.109812, 0.890188;
+  (true, false) 0.00415025, 0.99585;
+  (false, true) 0.420682, 0.579318;
+  (false, false) 0.248169, 0.751831;
+}
+probability ( v_13_1 | v_12_1 ) {
+  (true) 0.166349, 0.833651;
+  (false) 0.318885, 0.681115;
+}
+probability ( v_13_2 | v_13_1, v_12_2 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_13_3 | v_13_2, v_12_3 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_13_4 | v_13_3, v_12_4 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_13_5 | v_13_4, v_12_5 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_13_6 | v_13_5, v_12_6 ) {
+  (true, true) 0.60275, 0.39725;
+  (true, false) 0.0566654, 0.943335;
+  (false, true) 0.990738, 0.00926225;
+  (false, false) 0.6069, 0.3931;
+}
+probability ( v_13_7 | v_13_6, v_12_7 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_13_8 | v_13_7, v_12_8 ) {
+  (true, true) 0.860867, 0.139133;
+  (true, false) 0.412917, 0.587083;
+  (false, true) 0.66333, 0.33667;
+  (false, false) 0.958004, 0.041996;
+}
+probability ( v_13_9 | v_13_8, v_12_9 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_13_10 | v_13_9, v_12_10 ) {
+  (true, true) 0.893058, 0.106942;
+  (true, false) 0.480838, 0.519162;
+  (false, true) 0.45092, 0.54908;
+  (false, false) 0.6978, 0.3022;
+}
+probability ( v_13_11 | v_13_10, v_12_11 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_13_12 | v_13_11, v_12_12 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_13_13 | v_13_12, v_12_13 ) {
+  (true, true) 0.35597, 0.64403;
+  (true, false) 0.373714, 0.626286;
+  (false, true) 0.173102, 0.826898;
+  (false, false) 0.913762, 0.0862383;
+}
+probability ( v_13_14 | v_13_13, v_12_14 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_13_15 | v_13_14, v_12_15 ) {
+  (true, true) 0.331643, 0.668357;
+  (true, false) 0.357424, 0.642576;
+  (false, true) 0.47048, 0.52952;
+  (false, false) 0.514169, 0.485831;
+}
+probability ( v_14_1 | v_13_1 ) {
+  (true) 0.363538, 0.636462;
+  (false) 0.995007, 0.00499308;
+}
+probability ( v_14_2 | v_14_1, v_13_2 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_3 | v_14_2, v_13_3 ) {
+  (true, true) 0.747623, 0.252377;
+  (true, false) 0.470549, 0.529451;
+  (false, true) 0.999188, 0.000812171;
+  (false, false) 0.799681, 0.200319;
+}
+probability ( v_14_4 | v_14_3, v_13_4 ) {
+  (true, true) 0.786097, 0.213903;
+  (true, false) 0.329086, 0.670914;
+  (false, true) 0.943582, 0.056418;
+  (false, false) 0.159811, 0.840189;
+}
+probability ( v_14_5 | v_14_4, v_13_5 ) {
+  (true, true) 0.857344, 0.142656;
+  (true, false) 0.246802, 0.753198;
+  (false, true) 0.536157, 0.463843;
+  (false, false) 0.184023, 0.815977;
+}
+probability ( v_14_6 | v_14_5, v_13_6 ) {
+  (true, true) 0.52813, 0.47187;
+  (true, false) 0.98618, 0.0138199;
+  (false, true) 0.328766, 0.671234;
+  (false, false) 0.885554, 0.114446;
+}
+probability ( v_14_7 | v_14_6, v_13_7 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_8 | v_14_7, v_13_8 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_9 | v_14_8, v_13_9 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_14_10 | v_14_9, v_13_10 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_11 | v_14_10, v_13_11 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_14_12 | v_14_11, v_13_12 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_13 | v_14_12, v_13_13 ) {
+  (true, true) 0.766938, 0.233062;
+  (true, false) 0.482886, 0.517114;
+  (false, true) 0.710036, 0.289964;
+  (false, false) 0.587137, 0.412863;
+}
+probability ( v_14_14 | v_14_13, v_13_14 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_14_15 | v_14_14, v_13_15 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_15_1 | v_14_1 ) {
+  (true) 0.0, 1.0;
+  (false) 1.0, 0.0;
+}
+probability ( v_15_2 | v_15_1, v_14_2 ) {
+  (true, true) 0.225052, 0.774948;
+  (true, false) 0.175053, 0.824947;
+  (false, true) 0.912002, 0.0879976;
+  (false, false) 0.292311, 0.707689;
+}
+probability ( v_15_3 | v_15_2, v_14_3 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_15_4 | v_15_3, v_14_4 ) {
+  (true, true) 0.686455, 0.313545;
+  (true, false) 0.557509, 0.442491;
+  (false, true) 0.774715, 0.225285;
+  (false, false) 0.453393, 0.546607;
+}
+probability ( v_15_5 | v_15_4, v_14_5 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_15_6 | v_15_5, v_14_6 ) {
+  (true, true) 0.618818, 0.381182;
+  (true, false) 0.329938, 0.670062;
+  (false, true) 0.611641, 0.388359;
+  (false, false) 0.157401, 0.842599;
+}
+probability ( v_15_7 | v_15_6, v_14_7 ) {
+  (true, true) 0.0954695, 0.904531;
+  (true, false) 0.447522, 0.552478;
+  (false, true) 0.843792, 0.156208;
+  (false, false) 0.760367, 0.239633;
+}
+probability ( v_15_8 | v_15_7, v_14_8 ) {
+  (true, true) 1.0, 0.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
+probability ( v_15_9 | v_15_8, v_14_9 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_15_10 | v_15_9, v_14_10 ) {
+  (true, true) 0.671244, 0.328756;
+  (true, false) 0.103504, 0.896496;
+  (false, true) 0.442595, 0.557405;
+  (false, false) 0.445959, 0.554041;
+}
+probability ( v_15_11 | v_15_10, v_14_11 ) {
+  (true, true) 0.482991, 0.517009;
+  (true, false) 0.930709, 0.0692906;
+  (false, true) 0.597427, 0.402573;
+  (false, false) 0.844215, 0.155785;
+}
+probability ( v_15_12 | v_15_11, v_14_12 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 1.0, 0.0;
+  (false, true) 0.0, 1.0;
+  (false, false) 1.0, 0.0;
+}
+probability ( v_15_13 | v_15_12, v_14_13 ) {
+  (true, true) 0.0426886, 0.957311;
+  (true, false) 0.813741, 0.186259;
+  (false, true) 0.0679555, 0.932045;
+  (false, false) 0.886481, 0.113519;
+}
+probability ( v_15_14 | v_15_13, v_14_14 ) {
+  (true, true) 0.144748, 0.855252;
+  (true, false) 0.955325, 0.0446747;
+  (false, true) 0.509528, 0.490472;
+  (false, false) 0.133543, 0.866457;
+}
+probability ( v_15_15 | v_15_14, v_14_15 ) {
+  (true, true) 0.0, 1.0;
+  (true, false) 0.0, 1.0;
+  (false, true) 1.0, 0.0;
+  (false, false) 0.0, 1.0;
+}
