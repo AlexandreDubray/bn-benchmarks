@@ -73,20 +73,22 @@ def get_minimal_uai(uai_file, evidences):
     return new_uai_content
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4 or "--help" in sys.argv or "-h" in sys.argv:
-        print("Usage: python enc3.py [--help] <model.uai> <evidence> <epsilon>")
+    if len(sys.argv) != 3 or "--help" in sys.argv or "-h" in sys.argv:
+        print("Usage: python dai.py [--help] <model.uai> <evidence>")
         print("\tmodel.uai: The BN, in uai format")
         print("\tevidence: The evidences, either as a file or a string")
-        print("\tepsilon: an approximation parameter (0.0 for exact, none for classical dfs)")
         sys.exit(1)
     evidence = get_evidence_content(sys.argv[2])
     model = open(sys.argv[1]).read().split()
-    epsilon = sys.argv[3]
+    #model = get_minimal_uai(sys.argv[1], evidence)
     fn = random.randint(0, 1_000_000_000)
-    with open(f'{fn}.uai', 'w') as f:
-        f.write(' '.join(model))
-    cmd = ['schlandals', '--timeout', '600', '-i', f'{fn}.uai', '--evidence', ' '.join([str(x) for x in evidence])]
-    if epsilon != 'none':
-        cmd += ['--epsilon', epsilon, '--approx', 'lds']
+    #with open(f'{fn}.uai', 'w') as f:
+    #    f.write(' '.join(model))
+    with open(f'{fn}.evid', 'w') as f:
+        f.write(f'{evidence[0]}')
+        for i in range(evidence[0]):
+            f.write(f'\n{evidence[2*i+1]} {evidence[2*i+2]}')
+    cmd = ['dai', sys.argv[1], f'{fn}.evid', '0', 'PR']
     subprocess.run(cmd)
-    os.remove(f'{fn}.uai')
+    #os.remove(f'{fn}.uai')
+    os.remove(f'{fn}.evid')

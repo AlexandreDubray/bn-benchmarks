@@ -72,21 +72,52 @@ def get_minimal_uai(uai_file, evidences):
 
     return new_uai_content
 
+def parse_exe_output(fn):
+    output = {}
+    with open(f'{fn}.cnf') as f:
+        lines = f.readlines()
+        s = lines[0].rstrip().split(' ')
+        output['nvars'] = int(s[2])
+        output['nclauses'] = int(s[3])
+        output['clauses'] = lines[1:]
+        
+    weights = {}
+    with open(f'{fn}.weight') as f:
+        for line in f.readlines()[:-1]:
+            s = line.rstrip().split(' ')
+            var = int(s[0])
+            weight = float(s[1])
+            weights[var] = weight
+    output['weights'] = weights
+    
+    variable_map = {}
+    with open(f'{fn}.map') as f:
+        for line in f:
+            s = line.rstrip().split('=')
+            var = int(s[0])
+            subsplit = s[1].split('][')
+            variable_map[var] = [[int(x) for x in re.findall(r'-?\d+', y)] for y in subsplit]
+    output['variable_map'] = variable_map
+    return output
+
 if __name__ == '__main__':
-    if len(sys.argv) != 4 or "--help" in sys.argv or "-h" in sys.argv:
-        print("Usage: python enc3.py [--help] <model.uai> <evidence> <epsilon>")
+    if len(sys.argv) != 5 or sys.argv[1] == "--help" or sys.argv[1] == "-h":
+        print("Usage: python toulbar.py [--help] <model.uai> <evidence> <reduce> <toulbar command>")
         print("\tmodel.uai: The BN, in uai format")
         print("\tevidence: The evidences, either as a file or a string")
-        print("\tepsilon: an approximation parameter (0.0 for exact, none for classical dfs)")
+        print("\treduce: should the uai model be reduced?")
+        print("\ttoulbar command: the command to run, use {} as placeholder for input and evidence file")
         sys.exit(1)
     evidence = get_evidence_content(sys.argv[2])
-    model = open(sys.argv[1]).read().split()
-    epsilon = sys.argv[3]
+    if sys.argv[3] == 'true' or sys.argv[3] == 'True':
+        model = get_minimal_uai(sys.argv[1], evidence)
+    else:
+        model = open(sys.argv[1]).read().split()
     fn = random.randint(0, 1_000_000_000)
     with open(f'{fn}.uai', 'w') as f:
         f.write(' '.join(model))
-    cmd = ['schlandals', '--timeout', '600', '-i', f'{fn}.uai', '--evidence', ' '.join([str(x) for x in evidence])]
-    if epsilon != 'none':
-        cmd += ['--epsilon', epsilon, '--approx', 'lds']
-    subprocess.run(cmd)
-    os.remove(f'{fn}.uai')
+    
+    with open(f'{fn}.evid', 'w') as f:
+        f.write(' '.join([str(x) for x in evidence]))
+
+    subprocess.run(sys.argv[4].format(f'{fn}.uai', f'{fn}.evid').split())

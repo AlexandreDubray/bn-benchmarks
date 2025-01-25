@@ -76,6 +76,10 @@ def get_minimal_uai(uai_file, evidences, queries):
     for i in range(number_evidences):
         evidences[2*i + 1] = new_ids[evidences[2*i + 1]]
 
+    for i in range(number_query):
+        queries[2*i+1] = new_ids[queries[2*i + 1]]
+
+
     return new_uai_content
 
 def parent_values_from_domain(domains):
@@ -90,16 +94,21 @@ def parent_values_from_domain(domains):
     return values
 
 if __name__ == '__main__':
-    if len(sys.argv) != 5 or "--help" in sys.argv or "-h" in sys.argv:
-        print("Usage: python pl.py [--help] <model.uai> <evidence> <problog command>")
+    if len(sys.argv) != 6 or "--help" in sys.argv or "-h" in sys.argv:
+        print("Usage: python pl.py [--help] <model.uai> <evidence> <reduce> <problog command>")
         print("\tmodel.uai: The BN, in uai format")
         print("\tevidence: The evidences, either as a file or a string (<nb_evidence> <variable1 value1> <variable2 value2> ...)")
         print("\tquery: The queries to do (<nb_query> <variable1 value1> ...)")
+        print("\treduce: Should the UAI file be reduced ? (true|false)")
         print("\tproblog command: The command to run. Use the placeholder {} for the input file")
+        sys.exit(1)
 
     evidence = get_evidence_content(sys.argv[2])
     queries = get_evidence_content(sys.argv[3])
-    content = get_minimal_uai(sys.argv[1], evidence, queries)
+    if sys.argv[4] == 'true' or sys.argv[4] == 'True':
+        content = get_minimal_uai(sys.argv[1], evidence, queries)
+    else:
+        content = open(sys.argv[1]).read().split()
 
     if content[0] != 'BAYES':
         print("The input file should be a UAI bayesian network (BAYES header)")
@@ -158,5 +167,5 @@ if __name__ == '__main__':
     with open(filename, 'w') as f:
         f.write('\n'.join(clauses))
 
-    subprocess.run(sys.argv[4].format(filename).split())
+    subprocess.run(sys.argv[5].format(filename).split())
     os.remove(filename)

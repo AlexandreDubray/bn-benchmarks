@@ -101,15 +101,19 @@ def parse_exe_output(fn):
     return output
 
 if __name__ == '__main__':
-    if len(sys.argv) != 5 or sys.argv[1] == "--help" or sys.argv[1] == "-h":
-        print("Usage: python enc3.py [--help] <model.uai> <evidence> <enc3|enc4|enc4linp> <WMC command>")
+    if len(sys.argv) != 6 or sys.argv[1] == "--help" or sys.argv[1] == "-h":
+        print("Usage: python enc3.py [--help] <model.uai> <evidence> <enc3|enc4|enc4linp> <reduce> <WMC command>")
         print("\tmodel.uai: The BN, in uai format")
         print("\tevidence: The evidences, either as a file or a string")
         print("\tenc3|enc4|enc4linp: The encoding to use")
+        print("\treduce: should the uai model be reduced?")
         print("\tWMC command: The command to run. Use the placeholder {} for the input file")
         sys.exit(1)
     evidence = get_evidence_content(sys.argv[2])
-    model = get_minimal_uai(sys.argv[1], evidence)
+    if sys.argv[4] == 'true' or sys.argv[4] == 'True':
+        model = get_minimal_uai(sys.argv[1], evidence)
+    else:
+        model = open(sys.argv[1]).read().split()
     fn = random.randint(0, 1_000_000_000)
     with open(f'{fn}.uai', 'w') as f:
         f.write(' '.join(model))
@@ -144,6 +148,7 @@ if __name__ == '__main__':
     os.remove(f'{fn}.map')
     os.remove(f'{fn}.uai')
 
-    subprocess.run(sys.argv[4].format(f'{fn}.cnf').split())
+    print(sys.argv[5].format(f'{fn}.cnf'))
+    subprocess.run(sys.argv[5].format(f'{fn}.cnf').split())
 
-    os.remove(f'{fn}.cnf')
+    #os.remove(f'{fn}.cnf')
