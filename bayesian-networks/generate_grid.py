@@ -32,15 +32,15 @@ def generate_grid(n, ratio, id):
     for i in range(number_determinist):
         nodes[ns[i]]['determinist'] = True
 
-    for i in range(n):
-        for j in range(n):
-            node = get_node_id(i, j, n)
-            right = get_node_id(i, j+1, n)
-            down = get_node_id(i+1, j, n)
-            if i < n-1:
-                nodes[node]['parents'].append(right)
-            if j < n-1:
+    for row in range(n):
+        for col in range(n):
+            node = get_node_id(row, col, n)
+            right = get_node_id(row, col+1, n)
+            down = get_node_id(row+1, col, n)
+            if row < n-1:
                 nodes[node]['parents'].append(down)
+            if col < n-1:
+                nodes[node]['parents'].append(right)
 
     for i in range(number_nodes):
         ps = nodes[i]['parents']
