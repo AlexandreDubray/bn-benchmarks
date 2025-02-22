@@ -35,16 +35,19 @@ def generate_grid(n, ratio, id):
     for row in range(n):
         for col in range(n):
             node = get_node_id(row, col, n)
-            right = get_node_id(row, col+1, n)
-            down = get_node_id(row+1, col, n)
-            if row < n-1:
-                nodes[node]['parents'].append(down)
-            if col < n-1:
-                nodes[node]['parents'].append(right)
+            left = get_node_id(row, col - 1, n)
+            up = get_node_id(row - 1, col, n)
+            if row > 0:
+                nodes[node]['parents'].append(up)
+            if col > 0:
+                nodes[node]['parents'].append(left)
 
     for i in range(number_nodes):
         ps = nodes[i]['parents']
-        outfile.write(f'{len(ps) + 1} {" ".join([str(x) for x in ps])} {i}\n')
+        if len(ps) > 0:
+            outfile.write(f'{len(ps) + 1} {" ".join([str(x) for x in ps])} {i}\n')
+        else:
+            outfile.write(f'{len(ps) + 1} {i}\n')
 
     for i in range(number_nodes):
         ps = nodes[i]['parents']
